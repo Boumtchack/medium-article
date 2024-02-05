@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  /* text-align: center; */
+}
+
+/* *{
+  border: red 1px solid;
+} */
+
+.article {
+  width: 750px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .article {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .article {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .article {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .article {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+h1, h2 {
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+}
+
+#banner {
+  height: 500px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-image: url(https://www.rollingstone.fr/wp-content/uploads/2019/11/nicolas-cage.jpg) ;
+}
+
+#under-title{
+  opacity: 0.5;
+}
+
+#text-content{
+  margin-top: 50px;
+}
+
+.article {
+  margin: 0 auto;
+}
+
+#banner > .article{
+  padding-top: 10em;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.light {
+  font-weight: 400;
+}
+
+.white-text {
+  color: white;
+}
+
+.grey-text {
+  color: grey;
+}
+
+.article a{
+  background-color: rgba(127, 255, 212, 0.4);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+a:visited{
+  color: initial;
+}
+
+a:hover {
+  background-color: rgba(127, 255, 212, 0.7);
+}
+
+.text-content {
+  margin-top: 0;
+}
+
+.simple-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nice-font {
+  font-size: 22px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
